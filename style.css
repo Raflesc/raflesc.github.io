@@ -1,0 +1,62 @@
+.barra {
+	display: flex;
+	list-style: none;
+	font-size: 2.5em;
+	background: #2c3e50	;
+	color: white;
+	padding: 5px;
+	font-family: arial;
+}
+
+.acerca{
+	margin-left: auto;
+	font-weight: bold;
+}
+
+#link-acerca{
+	text-decoration: none;
+	color:#2980b9;
+} 
+
+.contenedor {
+	margin: 20px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+	grid-template-rows: 1fr;
+}
+
+.card-title{
+	font-weight: bold;
+	font-size: 2em;
+	color: #e74c3c;
+	font-family: arial;
+}
+
+.card {
+	background: #2c3e50;
+	color:white;
+	align-items: center;
+}
+
+.card-text{
+	font-size: 1.3em;
+	font-family: arial;
+}
+
+.pie{
+	display: flex;
+	list-style: none;
+	font-size: 2em;
+	background: #2c3e50	;
+	color: white;
+	padding: 20px;
+	font-family: arial;
+}
+
+.contacto{
+	margin-left: auto;
+	font-style: italic;
+	color:#f1c40f;
+}
+
